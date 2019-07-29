@@ -1,0 +1,75 @@
+.MOOCFeed { margin: 0; padding: 0; color: black; text-decoration: none; -webkit-font-smoothing: antialiased; border: 0px dashed silver; }
+.MOOCFeed.a:hover { cursor: pointer; }
+.MOOCFeed.Bold { font-weight: bold; color: black; }
+.MOOCFeed.Hidden { visibility: hidden; }
+.MOOCFeed.InLineBlock { display: inline-block; }
+div.MOOCFeed.CenteredFrame { width: 650px; margin-top: 24px; }
+
+div.MOOCFeed.MoocContainer { display: inline-block; width: 650px; padding: 16px 0 8px 0; border-top: 1px solid silver; }
+img.MOOCFeed.Thumbnail { float: left; height: 90px; width: 160px; }
+div.MOOCFeed.InfoContainer { float: left; width: 474px; margin: 0 0 0 10px; border: 0px solid silver; }
+span.MOOCFeed.LearnMore, span.MOOCFeed.LearnMore a { font: normal 12px Arial; color: rgb(190,0,0); text-decoration: underline; }
+
+div#FiltersContainer div.MOOCFeed.FilterBlock:nth-child(2) div.Label { margin-top: 4px; margin-left: 18px; width: 140px; }
+div#FiltersContainer div.MOOCFeed.FilterBlock:nth-child(3) { margin-top: 4px; }
+div#FiltersContainer div.MOOCFeed.FilterBlock:nth-child(3) div.Label { margin-top: 4px; }
+div#FiltersContainer div.MOOCFeed.FilterBlock:nth-child(3) div.FiltersClass { width: 500px; vertical-align: top; }
+
+div.MOOCFeed.Label { display: inline-block; width: 60px; font: normal 1em Arial; }
+input#SearchBar { width: 200px; height: 1.25em; border: 1px solid #404040; border-radius: 6px; margin-right: 2px; padding: 4px 8px 4px 8px; color: #404040; font: normal 1em Arial; }
+
+div#FiltersContainer { margin: 16px 0px 16px 0px; }
+div.MOOCFeed.FiltersClass { display: inline-block; }
+div.MOOCFeed.FilterButton, div.MOOCFeed.StatusLabel { display: inline-block; border: 1px solid #c50508; border-radius: 6px; margin: 0 2px 8px 0; padding: 4px 8px 4px 8px; color: #c50508; font: normal .85em Arial; }
+div.MOOCFeed.FilterFlag { display: inline-block; height: auto; vertical-align: middle; margin-right: 2px; }
+div.MOOCFeed.FilterFlag img { width: 40px; height: 24px; border: 1px solid black; border-radius: 6px; }
+div.MOOCFeed.FilterButton:hover, div.MOOCFeed.FilterFlag:hover { cursor: pointer; }
+
+div.MOOCFeed.FilterFlag.Inactive img { opacity: .25; filter: alpha(opacity=25); /* For IE8 and earlier */ }
+div.MOOCFeed.FilterFlag.Active img { opacity: 1; filter: alpha(opacity=1); /* For IE8 and earlier */ }
+
+div.MOOCFeed.Inactive.Blue { border-color: blue; color: blue;}
+div.MOOCFeed.Inactive.Green { border-color: green; color: green;}
+div.MOOCFeed.Inactive.Grey { border-color: grey; color: grey;}
+div.MOOCFeed.Inactive.Red { border-color: red; color: red;}
+div.MOOCFeed.Active.Blue, div.MOOCFeed.StatusLabel.Blue { border-color: blue; color: white; background-color: blue; }
+div.MOOCFeed.Active.Green, div.MOOCFeed.StatusLabel.Green { border-color: green; color: white; background-color: green; }
+div.MOOCFeed.Active.Grey, div.MOOCFeed.StatusLabel.Grey { border-color: grey; color: white; background-color: grey; }
+div.MOOCFeed.Active.Red, div.MOOCFeed.StatusLabel.Red { border-color: red; color: white; background-color: red; }
+
+div.MOOCFeed.StatusLabel { display: inline-block; vertical-align: top; }
+
+
+.MOOCFeed.NoSelect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+div.MOOCFeed.TitleAndAuthor { display: inline-block; width: 316px; margin: -2px 0 0 4px; vertical-align: top; border: 0px solid cyan; }
+div.MOOCFeed.TitleAndAuthor p { width: 100%;  margin: 0 0 2px 0; border: 0px solid yellow;}
+
+p.MOOCFeed.Title, p.MOOCFeed.Title a { font: bold 14px Arial; text-decoration: none; }
+p.MOOCFeed.Authors { font: normal 12px Arial; font-style: italic; }
+p.MOOCFeed.Description { margin: 2px 8px 8px 0; font: normal 12px Georgia; }
+
+div.MOOCFeed.StartsIn { float: right; margin: 0 16px -60px 0; height: auto; width: auto; text-align: center; font: normal 12px Georgia; color: blue; border: 0px solid red;}
+div.MOOCFeed.StartsIn p, span.MOOCFeed { color: #032892; margin: 0; border: 0px solid yellow; }
+div.MOOCFeed.StartsIn span { font-weight: bold; }
+div.MOOCFeed.MOOCDetails { float: left; width: auto; }
+img.MOOCFeed.MOOCDetailsFlag { width: 32px; height: 22px; border: 1px solid black; border-radius: 4px; }
+div.MOOCFeed.MOOCDetails img:nth-child(-n+2) { margin-right: 6px; }
+img.MOOCFeed.MOOCDetailsPlatform { height: 24px; }
+img.MOOCFeed.MOOCDetailsLevel { height: 26px; }
+div.MOOCFeed.MOOCDetailsLevel { padding-top: 4px; vertical-align: top; display: inline-block; width: 124px; font: normal 12px Georgia; color: #1a202d; border: 0px solid red; }
+div.MOOCFeed.MOOCDetailsLevel p { margin: 0; }
+img.MOOCFeed.SignUpButton { float: right; height: 30px; }
+
+div#MOOCFeedCounter-CounterContainer { margin: 0px 0 0 0; padding: 12px 0 1px 0; background-color: #ac0418; }
+p.MOOCFeedCounter {display: block; margin: 0; font-size: 1.4em; text-align: center; color: white; }
+p#MOOCFeedCounter-Counter {margin: 0; margin: 16px 0; font-size: 2.4em; font-weight: normal; text-align: center; color: white; }
+

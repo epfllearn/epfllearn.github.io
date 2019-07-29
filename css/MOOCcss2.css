@@ -1,0 +1,18 @@
+.MOOCFeed.a:hover { cursor: pointer; }
+.MOOCFeed.Hidden { visibility: hidden; }
+.MOOCFeed.InLineBlock { display: inline-block; }
+/*div.MOOCFeed.CenteredFrame { width: 650px; margin-top: 24px; }*/
+div.MOOCFeed.CenteredFrame { margin-top: 10px; }
+
+div.MOOCFeed.Label { display: inline-block; width: 60px; font: normal 1em Arial; }
+
+div.MOOCFeed.FiltersClass { display: inline-block; }
+div.MOOCFeed.FilterButton, div.MOOCFeed.StatusLabel { display: inline-block; border: 1px solid #c50508; border-radius: 0px; margin: 0 2px 8px 0; padding: 4px 8px 4px 8px; color: #c50508; font: normal 1em Arial; }
+div.MOOCFeed.FilterButton:hover, div.MOOCFeed.FilterFlag:hover { cursor: pointer; }
+
+div.MOOCFeed.Inactive.Leman { border-color: #00A79F; color: #00A79F;}
+div.MOOCFeed.Inactive.Canard { border-color: #007480; color: #007480;}
+div.MOOCFeed.Inactive.Ardoise { border-color: #413D3A; color: #413D3A;}
+div.MOOCFeed.Active.Leman, div.MOOCFeed.StatusLabel.Leman { border-color: #00A79F; color: white; background-color: #00A79F; }
+div.MOOCFeed.Active.Canard, div.MOOCFeed.StatusLabel.Canard { border-color: #007480; color: white; background-color: #007480; }
+div.MOOCFeed.Active.Ardoise, div.MOOCFeed.StatusLabel.Ardoise { border-color: #413D3A; color: white; background-color: #413D3A; }
